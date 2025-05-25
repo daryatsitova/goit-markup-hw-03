@@ -357,13 +357,6 @@ button {
     align-items: flex-start;
 }
 
-.footer-content {
-    max-width: 264px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .footer-logo {
     margin-bottom: 16px;
 }
@@ -373,4 +366,5 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }
