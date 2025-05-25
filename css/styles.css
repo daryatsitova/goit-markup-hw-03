@@ -3,14 +3,24 @@ body {
     color: #434455;
     background-color: #fff;
 }
+
+/* reset */
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* common */
 
 .container {
     max-width: 1158px;
@@ -19,6 +29,10 @@ a {
 }
 
 /* HEADER  */
+
+.page-header {
+    border: 1px solid #000;
+}
 
 .header-container {
     display: flex;
@@ -96,6 +110,24 @@ a {
     color: #404bbf;
 }
 
+/* hero section  */
+
+.hero-section {
+    background: #2e2f42;
+    height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
 .hero-title {
     font-size: 56px;
     font-weight: 700;
@@ -103,10 +135,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-}
-
-.hero-section {
-    background: #2e2f42;
+    max-width: 496px;
 }
 
 button {
@@ -121,6 +150,9 @@ button {
         letter-spacing: 0.04em;
         color: #fff;
         background: #4d5ae5;
+        padding: 16px 32px;
+            border: none;
+            border-radius: 4px;
 }
 
 .hero-button:hover,
