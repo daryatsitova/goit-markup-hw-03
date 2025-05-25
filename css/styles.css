@@ -199,11 +199,23 @@ button {
         text-align: left;
 }
 
+
+/* team section  */
+
+
 .team-section{
     background: #f4f4fd;
+    padding: 120px 0;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-title {
+    margin-bottom: 72px;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -213,11 +225,28 @@ button {
         text-transform: capitalize;
 }
 
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
 .team-member {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    flex-basis: calc((100% - 72px) / 4);
+        text-align: center;
+        padding-bottom: 32px;
+}
+
+.team-photo {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .team-name {
+    margin-top: 32px;
+        margin-bottom: 8px;
 font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
