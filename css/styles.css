@@ -345,7 +345,7 @@ button {
     padding: 100px 0;
 }
 
-a.footer-logo-link {
+.footer-logo-link {
     display: inline-block;
     margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
