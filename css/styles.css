@@ -321,8 +321,28 @@ font-weight: 500;
         padding: 32px 16px 0;
 }
 
+/* footer section  */
+
 .page-footer{
     background: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-content {
+    max-width: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
 }
 
 .footer-text {
